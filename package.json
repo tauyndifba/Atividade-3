@@ -1,0 +1,21 @@
+{
+  "name": "distributed-chat-system",
+  "version": "1.0.0",
+  "description": "Distributed group chat system with multicast, replication, mutual exclusion, and fault tolerance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "node1": "node index.js 1",
+    "node2": "node index.js 2",
+    "node3": "node index.js 3"
+  },
+  "keywords": [
+    "distributed",
+    "chat",
+    "multicast",
+    "replication",
+    "fault-tolerance"
+  ],
+  "author": "",
+  "license": "ISC"
+}
